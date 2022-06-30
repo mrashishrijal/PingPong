@@ -1,0 +1,86 @@
+/* body {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#image {
+ 
+    height: 200px;
+}
+
+.outerbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 501px;
+}
+
+.button {
+    background-color: #44c767;
+    border-radius: 29px;
+    border: 1px solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 8px 70px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+    margin: 5px;
+
+}
+
+
+
+#playerOneScored {
+    background-color: #44c767;
+
+}
+
+#playerTwoScored {
+    background-color: rgb(87, 171, 209);
+}
+
+#greyOut {
+    background-color: grey;
+}
+
+#reset {
+    background-color: #c74221;
+    padding: 8px 100px;
+}
+
+.noCursor {
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.colorChange {
+    color: red;
+} */
+
+
+
+
+
+/* my way above */
+
+/* ******************************************************************** */
+
+
+/* colts way */
+
+
+/* 
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+} */

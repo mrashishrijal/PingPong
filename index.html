@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong Score Keeper</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+<body>
+
+    <!-- My attempt -->
+    <!-- <div class="outerbox">
+        <h2>Ping Pong Score</h2>
+        <img id="image" src="https://www.pngkey.com/png/detail/147-1477601_ping-pong-png-file-table-tennis-game-png.png"
+            alt="ping pong table">
+        <span id="playerOne">Player 1: 0</span>
+        <span id="playerTwo">Player 2: 0</span>
+        <p>How many plays?</p>
+        <select name="plays" id="plays">
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="7">7</option>
+            <option value="9">9</option>
+        </select>
+        <button id="playerOneScored" class="button">+1 Player One</button>
+        <button id="playerTwoScored" class="button">+1 Player Two</button>
+        <button id="reset" class="button">Reset</button>
+    </div> -->
+
+    <!-- *********************************************************************************************************** -->
+
+
+
+
+    <!-- colts way -->
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-half is-offset-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-2by1">
+                                <img src="https://www.pngkey.com/png/detail/147-1477601_ping-pong-png-file-table-tennis-game-png.png"
+                                    alt="ping pong pic">
+                            </figure>
+                        </div>
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                Ping Pong Score Keeper
+                            </p>
+
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                <h1 class="title is-1"><span id="p1Display">0</span> to <span id="p2Display">0</span>
+                                </h1>
+                                <p class="subtitle">Use the buttons below to keep score.</p>
+                                <label for="playto" class="label is-large is-inline">Playing To</label>
+                                <div class="select is-rounded">
+                                    <select name="" id="playto">
+                                        <option value="3">3</option>
+                                        <option value="5">5</option>
+                                        <option value="7">7</option>
+                                        <option value="9">9</option>
+                                        <option value="11">11</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <button class="is-primary button card-footer-item is-large" id="p1Button">+1 Player
+                                One</button>
+                            <button class="is-info button card-footer-item is-large" id="p2Button">+1 Player
+                                Two</button>
+                            <button class="is-danger button card-footer-item is-large" id="reset">Reset</button>
+
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
